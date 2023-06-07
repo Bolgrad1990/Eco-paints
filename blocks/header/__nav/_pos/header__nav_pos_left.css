@@ -1,0 +1,5 @@
+.header__nav_pos_left {
+  display: flex;
+  gap: 17px;
+  margin-left: 41px;
+}
