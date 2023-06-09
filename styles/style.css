@@ -11,6 +11,93 @@
 }
 
 .droops {
+  border-bottom: 1px solid rgba(31, 30, 30, 0.1);
+  width: 100%;
+}
+
+.droops__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.droops__list-event {
+  display: flex;
+  margin-top: 59px;
+  color: rgba(60, 60, 60, 1);
+}
+
+.droops__list-number {
+  margin-right: 17px;
+  align-self: center;
+}
+
+.droops__list-text {
+  line-height: 14px;
+  font-size: 9px;
+  width: 126px;
+  text-transform: uppercase;
+}
+
+.droops__title {
+  font-size: 125px;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 131px;
+}
+
+.droops__colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+  margin-left: 57px;
+  margin-top: 76px;
+}
+
+.droops__colors-event {
+  width: 167px;
+}
+
+.droops__colors-img {
+  width: 100%;
+}
+
+.droops__colors-price {
+  font-size: 9px;
+  line-height: 9px;
+  color: rgba(60, 60, 60, 1);
+  text-transform: uppercase;
+  text-align: center;
+  width: 117px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.droops__button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.droops__button {
+  width: 137px;
+  margin-top: 45px;
+  justify-content: center;
+}
+
+.droops__about {
+  width: 65px;
+  margin: 0 auto;
+  font-size: 9px;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.droops__about-text {
+  font-size: 38px;
+  line-height: 45px;
+  width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 16px;
+  padding-bottom: 96px;
 }
 
 .cards {
