@@ -1,5 +1,5 @@
 .header__title {
-  width: 410px;
+  max-width: 410px;
   color: #fff;
   font-size: 63px;
   margin-top: 71px;

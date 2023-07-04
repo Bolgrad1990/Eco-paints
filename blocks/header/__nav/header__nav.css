@@ -1,6 +1,7 @@
 .header__nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   color: #fff;
   font-size: 10px;
   line-height: 11.6px;
