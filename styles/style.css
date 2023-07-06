@@ -155,8 +155,7 @@
   margin: 0 auto;
   margin-top: 40px;
 }
-.button {
-}
+
 .cards__button {
   width: 127px;
   margin: 0 auto;
@@ -186,6 +185,12 @@
 .cards__small {
   width: 269px;
   height: 269px;
+  position: relative;
+}
+.cards__rectangle {
+  position: absolute;
+  top: 25%;
+  left: 25%;
 }
 .cards__container-text_three {
   background-color: #c6bc8a;
@@ -197,7 +202,36 @@
 }
 
 .feedback {
+  width: 100%;
 }
+.feedback-border {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  margin-top: 65px;
+}
+.feedback__form {
+}
+.feedback__text {
+  width: 306px;
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 50px;
+}
+.feedback__input {
+  border: 1px solid #E0E0E0;
+  width: 267px;
+  height: 37px;
+  margin-top: 8px;
+  border-radius: 4.17px;
+}
+.feedback__text-small {
+  font-size: 9px;
+  line-height: 13.8px;
+  margin-top: 65px;
+  margin-bottom: 34px;
+}
+
+
 
 .footer {
 }
